@@ -11,15 +11,15 @@ Perhatikan deklarasi variabel berikut:
 const element = <h1>Hello, World!</h1>;
 ```
 
-Sintaks tag aneh ini tidak terlihat seperti string maupun HTML.
+Susunan elemen tag yang lucu ini bukan berbentuk string dan bukan pula berbentuk HTML.
 
-Sintaks seperti ini disebut JSX, dan ini merupakan sebuah sintaks ekstensi dari JavaScript. Kami menyarankan penggunaannya dengan React untuk mendeskripsikan bagaimana UI seharusnya terlihat. JSX mungkin akan mengingatkan anda dengan sebuah bahasa template, bedanya adalah ia telah dilengkapi dengan kekuatan JavaScript.
+Sintaks seperti ini disebut JSX, dan ini merupakan sintaks ekstensi dari JavaScript. Kami merekemondasikan JSX untuk digunakan dengan React untuk mendeskripsikan tampilan UI. JSX mungkin mirip dengan template language, tapi JSX memiliki semua fitur yang dimiliki JavaScript.
 
-JSX akan menghasilkan "elemen" React. KIta akan mulai mengeksplor bagaimana me-render mereka ke dalam DOM di [bagian berikutnya](/docs/rendering-elements.html). Di bawah, anda akan menemukan dasar-dasar JSX yang anda butuhkan untuk memulai.
+JSX menghasilkan "elemen" React. Kita akan mempelajari rendering JSX ke dalam DOM di [bagian berikutnya](/docs/rendering-elements.html). Di bagian bawah, Anda akan menemukan dasar-dasar JSX yang anda butuhkan untuk memulai.
 
 ### Mengapa JSX?
 
-Bereaksi mencakup fakta bahwa logika rendering secara inheren digabungkan dengan logika UI lainnya: bagaimana kejadian ditangani, bagaimana keadaan berubah dari waktu ke waktu, dan bagaimana data disiapkan untuk ditampilkan.
+React mengadopsi prinsip bahwa melakukan rendering sebuah logic berkaitan erat dengan UI logic lainnya: bagaimana menangani events, bagaimana state berubah, dan bagaimana menyiapkan data untuk ditampilkan.
 
 Malahan memisahkan secara artifisial *teknologi* dengan menempatkan markup dan logic dalam file terpisah, React [memisahkan*perhatian*](https://en.wikipedia.org/wiki/Separation_of_concerns) dengan unit yang gabungkan secara longgar disebut "komponen" yang mengandung keduanya. Kita akan kembali ke komponen dalam [bagian selanjutnya](/docs/components-and-props.html), namun jika anda belum nyaman menempatkan markup dalam JS, [pembicaraan ini](https://www.youtube.com/watch?v=x7cQ3mrcKaY)mungkin meyakinkan anda sebaliknya.
 
